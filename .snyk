@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - lerna > @lerna/publish > @evocateur/pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/npm-dist-tag > @evocateur/npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/npm-publish > @evocateur/libnpmpublish > @evocateur/npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2021-03-21T04:16:45.654Z'
+  SNYK-JS-LODASH-567746:
+    - lerna > @lerna/run > @lerna/command > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/command > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/prompt > inquirer > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
+    - lerna > @lerna/publish > @lerna/npm-publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2021-03-21T04:16:45.654Z'
