@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
-    "@sanity/client": "^1.150.1",
-    "@sanity/image-url": "^0.140.19",
+    "@sanity/client": "^4.0.0",
+    "@sanity/image-url": "^0.140.20",
     "cross-env": "^5.2.0",
     "groq": "^0.140.0",
     "normalize.css": "^8.0.1",
