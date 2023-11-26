@@ -15,12 +15,12 @@
   "dependencies": {
     "@sanity/base": "^1.150",
     "@sanity/cli": "^1.150",
-    "@sanity/components": "^1.150",
-    "@sanity/core": "^1.150",
+    "@sanity/components": "^2.0.2",
+    "@sanity/core": "^2.6.2",
     "@sanity/dashboard": "^1.150",
     "@sanity/default-layout": "^1.150",
     "@sanity/default-login": "^1.150",
-    "@sanity/desk-tool": "^1.150",
+    "@sanity/desk-tool": "^2.0.3",
     "date-fns": "^1.30.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -38,6 +38,6 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier-eslint-cli": "^7.0.0"
   }
 }
