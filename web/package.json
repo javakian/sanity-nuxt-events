@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/pwa": "^3.0.0",
     "@sanity/client": "^1.150.1",
     "@sanity/image-url": "^0.140.19",
     "cross-env": "^5.2.0",
